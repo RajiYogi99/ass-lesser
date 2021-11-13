@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head
+
+{
+    padding: 15px;
+    
+    border-bottom: 5px double rgba(128, 128, 128, 0.767);
+}
+.head,.logo
+
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo
+{
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logo i
+{
+    font-size:20px ;
+    padding: 5px;
+    color: green;
+}
+span
+{
+    color: black;
+    padding: 5PX;
+}
+.head ul
+{
+    list-style: none;
+    margin-right: 10%;
+   
+}
+.head ul li
+{
+    float: left;
+}
+.head ul li a:link,.head ul li a:visited
+{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    color: grey;
+    
+}
+.head ul li a:hover
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(85, 167, 85);
+    color: white;
+}
+.dd h3
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 25%;
+    font-size: 30px;
+    color: rgb(104, 102, 102);
+    width: 700px;
+}
+
+.active
+{
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(85, 167, 85);
+    color: white !important;
+}
+.images
+{
+    margin-left: 10%;
+    width: 90%;
+    display: flex;
+}
+.pic1 img
+{
+    width: 500px;
+    height: 520px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 10px;
+}
+.pics img
+{
+    display: inline-block;
+    width: 300px;
+    border-radius: 10px 10px 10px 10px;
+    height: 250px;
+    margin: 10px;
+}
+img[src='/music.jpg']
+{
+    width: 617px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.box
+{
+    background-image: linear-gradient(to right,rgb(94, 206, 104),rgb(51, 199, 167),rgb(90, 138, 228));
+    font-family: 'Times New Roman', Times, serif;
+}
+.box1
+{
+    padding: 40px;
+    text-align: center;
+}
+.box1 h2
+{
+    color: white;
+    font-size: 30px;
+}
+.box1 p
+{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    width: 550px;
+    margin-left: 30%;
+}
+.box2
+{
+    display: flex;
+    margin-left: 10%;
+}
+.lo1
+{
+    width: 400px;
+    height: 400px;
+}
+.lo1 i
+{
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 150px;
+}
+.lo1 h3 
+{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 5px;
+}
+.lo1 p
+{
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
